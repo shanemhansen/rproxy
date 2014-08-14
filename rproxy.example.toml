@@ -1,0 +1,11 @@
+Address = ":80"
+TLS = false
+#Keyfile = "server.key"
+#Certfile = "server.crt"
+ApiKey = "your key here"
+HostHeader = "X-Rproxy-Backend"
+ApiKeyHeader = "X-Rproxy-Key"
+LogFile =  "./rproxy.log"
+
+[[Host]]
+URL = "https://www.google.com/"
